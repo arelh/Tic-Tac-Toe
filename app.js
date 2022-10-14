@@ -29,8 +29,6 @@ function put(e) {
   } else {
     e.innerText = "o";
     gameState.x = true;
-   
-    
   }
 }
 
@@ -41,4 +39,4 @@ board.addEventListener("click", (e) => {
   return put(e.target);
 });
 
-function switch_Turn(e) {}
+

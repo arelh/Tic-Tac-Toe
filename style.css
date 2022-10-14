@@ -15,8 +15,8 @@
   } 
   
   .cell {
-    width: var(--cell-size);
-    height: var(--cell-size);
+    width: 150px;
+    height: 150px;
     border: 2px solid yellow;
     background: red;
     display: flex;
