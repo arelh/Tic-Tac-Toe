@@ -1,6 +1,14 @@
 
   body {
     margin: 0;
+    background-image: url(images.jpg);
+    
+  }
+  .title{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 60px;
   }
   
    .board {
@@ -23,38 +31,16 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    cursor: pointer;
+    font-size: 120px;
   }
-  
-  .winning-message {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, .9);
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 5rem;
-    flex-direction: column;
+  h3{
+    font-size: 50px;
+    text-align: center;
   }
-  
-  .winning-message button {
-    font-size: 3rem;
-    background-color: white;
-    border: 1px solid black;
-    padding: .25em .5em;
-    cursor: pointer;
-  }
-  
-  .winning-message button:hover {
-    background-color: black;
-    color: white;
-    border-color: white;
-  }
-  
-  .winning-message.show {
+  #restartButton{
     display: flex;
-  } 
+    align-items: center;
+    align-content: center;
+    margin-left: 350px;
+    margin-bottom: 20px;
+  }
