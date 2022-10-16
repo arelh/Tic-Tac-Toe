@@ -41,6 +41,13 @@
     display: flex;
     align-items: center;
     align-content: center;
-    margin-left: 350px;
+    margin-left: 943px;
     margin-bottom: 20px;
+    width: 170px;
+    height: 70px;
+    font-size: 50px;
+  }
+  .winning-message{
+   margin-bottom: 150px;
+   margin-right: 150px;
   }
